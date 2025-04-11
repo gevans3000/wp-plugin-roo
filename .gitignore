@@ -1,0 +1,26 @@
+.env
+check-perms.php
+server-info.php
+wp-content/
+node_modules/
+.DS_Store
+*.log
+.codeiumignore
+.vscode/
+.roorules-code
+
+# Test directories
+test-suite/
+tests-integration/
+**/test-*/
+**/tests/
+**/tests-*/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+.git/
+
+

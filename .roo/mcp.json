@@ -1,0 +1,48 @@
+{
+    "mcpServers": {
+      "browsermcp": {
+        "command": "npx",
+        "args": ["@browsermcp/mcp@latest"]
+      },
+      "sequential-thinking": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-sequential-thinking"
+        ]
+      },
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "/Users/lovel/source/repos",
+          "c:\\"
+        ]
+      },
+      "git": {
+        "command": "uvx",
+        "args": ["mcp-server-git"]
+      }
+    },
+    "autoRunCommands": {
+      "mcp2_git_add": true,
+      "mcp2_git_commit": true,
+      "mcp2_git_status": true,
+      "mcp2_git_log": true,
+      "mcp2_git_diff": true,
+      "mcp2_git_diff_staged": true,
+      "mcp2_git_diff_unstaged": true,
+      "mcp2_git_show": true,
+      "run_command": true,
+      "edit_file": true,
+      "write_to_file": true,
+      "view_file": true,
+      "mcp1_edit_file": true,
+      "mcp1_write_file": true,
+      "mcp1_read_file": true,
+      "mcp1_list_directory": true,
+      "mcp1_directory_tree": true,
+      "mcp1_create_directory": true
+    }
+  }
