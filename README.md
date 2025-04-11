@@ -236,5 +236,4 @@ This plugin is licensed under the GPL v2 or later.
 ## Credits
 
 - Created by: gevans3000
-- Utilizes OpenAI API for summarization#   w p - p l u g i n - r o o  
- 
+- Utilizes OpenAI API for summarization
